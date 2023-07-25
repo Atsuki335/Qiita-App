@@ -8,8 +8,10 @@ import 'models/tag.dart';
 import 'models/user.dart';
 
 class QiitaRepository {
-  final clientID = 'XXX'; // 登録したアプリケーションの ClientID を設定する
-  final clientSecret = 'YYY'; // 登録したアプリケーションの ClientSecret を設定する
+  final clientID =
+      'ee29878c2b953135879e07cb7d46b75114b1ea8d'; // 登録したアプリケーションの ClientID を設定する
+  final clientSecret =
+      '259d439381e0c7979fa30e8a45bafd8b9382da81'; // 登録したアプリケーションの ClientSecret を設定する
   final keyAccessToken = 'qiita/accessToken';
 
   String createAuthorizeUrl(String state) {
